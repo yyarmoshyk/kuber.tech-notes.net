@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  "Configure Kubectl to work with AWS GKE"
-date:   2019-09-10 16:06:00 +0000
+title:  "Configure Kubectl to work with Google GKE"
+date:   2021-01-06 16:00:00 +0000
 categories: GKE
 tags:
   - Kubectl
-  - AWS
+  - GCP
 parent: GKE
 ---
 This note contains the steps that need to be taken to configure your local kubectl to work with Kubernetes clusters running in Google GKE.
@@ -17,7 +17,7 @@ The steps are very simple.
 gcloud init
 ```
 You'll be asked for a number of questions. Type 74 if you'd like to skip zone config and move on to region selection.
-1.Now you can run the following command to add the desired cluster into kubectl config:
+1. Now you can run the following command to add the desired cluster into kubectl config:
 ```bash
 gcloud container clusters get-credentials <cluster_name>
 ```
