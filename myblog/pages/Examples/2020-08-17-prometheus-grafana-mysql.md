@@ -4,7 +4,7 @@ title:  "Prometheus + Grafana to monitor MySQL server"
 date:   2020-08-17 15:40:00 +0000
 categories: examples
 parent: Examples
-nav_order: 3
+nav_order: 5
 ---
 ## Description
 The primary purpose of this note is to describe the procedure of getting Grafana and Prometheus to run in Kubernetes.

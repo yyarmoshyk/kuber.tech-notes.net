@@ -4,7 +4,7 @@ title:  "Creating persistent storage"
 date:   2020-01-27 10:42:00 +0000
 categories: examples
 parent: Examples
-nav_order: 3
+nav_order: 4
 ---
 
 You can create a persistent volume claim (pvc) to provision NFS file storage for your cluster. Then, mount this pvc to a Deployment to ensure that data is available, even if the pods crash or shut down.
