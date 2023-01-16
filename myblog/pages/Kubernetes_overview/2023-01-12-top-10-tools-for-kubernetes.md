@@ -8,15 +8,15 @@ nav_order: 3
 ---
 # CLI
 ## Develop applications
-* Rancher desctopn based on k3s. It is the best way to run the local kubernetes environments
+* [Rancher desktop](https://rancherdesktop.io/) based on k3s. It is the best way to run the local kubernetes environments
 ## Operate clusters
 * kubectl is the default tool that can be extended by plugins
-** ctx - easily switch between contexts
-** ns - simplifies switch etween namespaces
+  * [ctx](https://github.com/weibeld/kubectl-ctx) - easily switch between contexts
+  * [ns](https://github.com/postfinance/kubectl-ns) - simplifies switch etween namespaces
 ## Manage third party applications
-* helm to manage applications' deployment
+* [helm](https://helm.sh/) to manage applications' deployment
 ## Observe what is going on in the cluster
-* [k9s](http://k9scli.io) - good observer
+* [k9s cli](http://k9scli.io) - good observer
 
 # In clusters
 ## Syncronize desired state with the actual state
@@ -34,8 +34,8 @@ TLS certificates
 Seeing the statistics and what is going on
 * prometheus to collect metrics + grafana to observe
 ## Collect logs
-* promtail - to collect logs
-* loki - to store logs
+* [promtail](https://grafana.com/docs/loki/latest/clients/promtail/) - to collect logs
+* [loki](https://github.com/grafana/loki) like Prometheus, but for logs - to store logs
 ## Policies
 * [kyverno](https://kyverno.io)
 * [open policy gatekeeper](https://open-policy-agent.github.io/gatekeeper)
