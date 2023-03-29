@@ -1,0 +1,14 @@
+name: Docker Image CI
+
+on: workflow_dispatch
+
+jobs:
+  build-image:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: |
+        docker login -u ${{ secrets.docker_login }} -p ${{ secrets.docker_password }};\
+        make build-image;\
+        rm -rf ~/.docker || true
