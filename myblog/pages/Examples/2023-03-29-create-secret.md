@@ -13,7 +13,7 @@ First you got to encode the text
 echo sample-secret |base64
 ```
 
-Next create the file with the following contexts:
+Next create `secret.yaml` file with the following contexts:
 ```yaml
 apiVersion: v1
 kind: Secret
