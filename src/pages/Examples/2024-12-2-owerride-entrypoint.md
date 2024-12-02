@@ -28,3 +28,5 @@ After this container will start with endless while true loop and you can connect
 ```bash
 kubectl exec -it command-demo-66c7896cf6-fthdv bash
 ```
+
+[(C) Origin](https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/)
